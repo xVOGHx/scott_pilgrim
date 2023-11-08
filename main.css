@@ -1,0 +1,133 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.section-title{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+#adaptacoes,
+#fale-conosco{
+    background-color: #f3f3f3;
+}
+
+#sobre,
+#personagens{
+    background-color:#EAE4E5;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover{
+    color: #fcba04;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: black;
+    color: #fcba04;
+}
+
+.text-colored{
+    color: #a50104;
+}
+
+.navbar{
+    background-color: #a50104;
+}
+
+.btn-primary{
+    color: #fcba04;
+    background-color: #590004;
+}
+
+.btn-primary:hover{
+    background-color: #a50104;
+}
+
+.nav-pills > button{
+    margin-bottom: 10px;
+    color: #fcba04;
+    background-color: #590004;
+}
+
+.nav-pills > button:hover{
+    color: #fcba04;
+}
+
+.nav-pills> button.nav-link.active{
+    color: #fcba04;
+    background-color: #a50104;
+}
+
+.carousel-item img {
+    height: 700px;
+    width: 100%;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#quadrinhos img,
+#jogo img,
+#filme img,
+#serie-animada img{
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px 0px;
+    border: 5px solid black;
+}
+
+#quadrinhos img:hover,
+#jogo img:hover,
+#filme img:hover,
+#serie-animada img:hover{
+    transform: scale(1.07);
+}
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .col-md-3{
+        padding-bottom: 32px;
+    }
+
+    #quadrinhos img,
+    #jogo img,
+    #filme img,
+    #serie-animada img{
+        max-width: 200px;
+        object-fit: cover;
+        object-position: 0px 0px;
+        border: 5px solid black;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+
+
+    #quadrinhos img,
+    #jogo img,
+    #filme img,
+    #serie-animada img{
+        height: 600px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 0px 0px;
+        border: 5px solid black;
+}
+}
